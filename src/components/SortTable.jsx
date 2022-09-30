@@ -62,8 +62,8 @@ export const SortTable = (props) => {
           setFormData={setFormData}
         />
 
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <table className="w-full text-sm text-left text-gray-500 ">
+          <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
             <tr>
               <th
                 onClick={() => sorting("id")}
@@ -158,11 +158,11 @@ export const SortTable = (props) => {
               </h3>
             )}
             {data.map((obj, index) => (
-              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <tr className="bg-white border-b ">
                 <td className="py-4 px-6 text-right">{obj.id}</td>
                 <th
                   scope="row"
-                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
                 >
                   {obj.date.toString()}
                 </th>

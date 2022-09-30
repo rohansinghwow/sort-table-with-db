@@ -15,7 +15,7 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
         onClick={() => setHidden(!hidden)}
         id="dropdown-button"
         data-dropdown-toggle="dropdown2"
-        className="flex-shrink-0 relative z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
+        className="flex-shrink-0 relative z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 "
         type="button"
       >
         Column Select
@@ -35,9 +35,7 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
       </button>
       {hidden && (
         <div className="absolute ml-[180px] bg-gray-300">
-          <h3 className="mb-4 font-semibold text-gray-900 dark:text-white">
-            Id
-          </h3>
+          <h3 className="mb-4 font-semibold text-gray-900 ">Id</h3>
           <ul className="w-48 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 ">
             <li className="w-full rounded-t-lg border-b border-gray-200 ">
               <div className="flex items-center pl-3">
@@ -47,11 +45,11 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   type="radio"
                   name="colRadio"
                   value="id"
-                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2 "
                 />
                 <label
                   htmlFor="list-radio-license"
-                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300"
+                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 "
                 >
                   Id
                 </label>
@@ -66,11 +64,11 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-license"
                   type="radio"
                   value="title"
-                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2"
                 />
                 <label
                   htmlFor="list-radio-license"
-                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300"
+                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900"
                 >
                   title
                 </label>
@@ -85,11 +83,11 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-license"
                   type="radio"
                   value="quantity"
-                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2"
                 />
                 <label
                   htmlFor="list-radio-license"
-                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300"
+                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 "
                 >
                   quantity
                 </label>
@@ -104,11 +102,11 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-distance"
                   type="radio"
                   value="distance"
-                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2 "
                 />
                 <label
                   htmlFor="list-radio-distance"
-                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300"
+                  className="py-3 ml-2 w-full text-sm font-medium text-gray-900 "
                 >
                   distance
                 </label>
