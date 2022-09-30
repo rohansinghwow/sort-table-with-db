@@ -11,3 +11,17 @@ npm i
 ```
 npm start
 ```
+
+# Important Files
+
+### db.js
+
+- Used to provide creds and connect to DB
+
+### server.js
+
+- Express JS with all the routes and Postgres query
+
+### DATA.json
+
+- Contains mock data for offline testing
