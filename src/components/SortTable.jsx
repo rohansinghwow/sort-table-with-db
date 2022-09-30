@@ -158,7 +158,7 @@ export const SortTable = (props) => {
               </h3>
             )}
             {data.map((obj, index) => (
-              <tr className="bg-white border-b ">
+              <tr key={index} className="bg-white border-b ">
                 <td className="py-4 px-6 text-right">{obj.id}</td>
                 <th
                   scope="row"

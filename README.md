@@ -25,3 +25,7 @@ npm start
 ### DATA.json
 
 - Contains mock data for offline testing
+
+## Note
+
+Due to time limit I was not able to implement Pagination and Contains feature
