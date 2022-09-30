@@ -39,3 +39,7 @@ npm start
 ## Note
 
 Due to time limit I was not able to implement Pagination and Contains feature
+
+### Contact Me
+
+Email - rohansinghwow@gmail.com
