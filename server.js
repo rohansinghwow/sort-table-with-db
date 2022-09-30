@@ -42,5 +42,5 @@ app.get('/search', async (req, res) => {
 })
 
 app.listen(5000, () => {
-    console.log('Server at 5000')
+    console.log('Server at 5000 or https://expressjs-postgres-production-f4d0.up.railway.app/rent')
 })

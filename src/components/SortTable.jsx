@@ -31,7 +31,9 @@ export const SortTable = (props) => {
     }
   }
   useEffect(() => {
-    axios.get("http://localhost:5000/rent").then((res) => setData(res.data));
+    axios
+      .get("https://expressjs-postgres-production-f4d0.up.railway.app/rent")
+      .then((res) => setData(res.data));
 
     console.log(data);
   }, []);
@@ -40,7 +42,7 @@ export const SortTable = (props) => {
     e.preventDefault();
     console.log("erere");
     axios
-      .get("http://localhost:5000/search", {
+      .get("https://expressjs-postgres-production-f4d0.up.railway.app/search", {
         params: {
           ...formData,
         },
