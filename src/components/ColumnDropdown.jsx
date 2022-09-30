@@ -46,7 +46,6 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-license"
                   type="radio"
                   value="id"
-                  name="list-radio"
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                 />
                 <label
@@ -65,7 +64,6 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-license"
                   type="radio"
                   value="title"
-                  name="list-radio"
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                 />
                 <label
@@ -84,7 +82,6 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-license"
                   type="radio"
                   value="quantity"
-                  name="list-radio"
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                 />
                 <label
@@ -103,7 +100,6 @@ export const ColumnDropdown = ({ formData, setFormData }) => {
                   id="list-radio-distance"
                   type="radio"
                   value="distance"
-                  name="list-radio"
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                 />
                 <label
