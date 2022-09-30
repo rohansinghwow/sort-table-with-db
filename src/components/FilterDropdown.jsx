@@ -50,6 +50,7 @@ export const FilterDropdown = ({
             <li className="w-full rounded-t-lg border-b border-gray-200 ">
               <div className="flex items-center pl-3">
                 <input
+                  name="filterRadio"
                   id="list-radio-license"
                   type="radio"
                   onChange={handleChange}
@@ -68,6 +69,7 @@ export const FilterDropdown = ({
             <li className="w-full rounded-t-lg border-b border-gray-200 ">
               <div className="flex items-center pl-3">
                 <input
+                  name="filterRadio"
                   onChange={handleChange}
                   id="list-radio-license"
                   type="radio"
@@ -86,6 +88,7 @@ export const FilterDropdown = ({
             <li className="w-full rounded-t-lg border-b border-gray-200 ">
               <div className="flex items-center pl-3">
                 <input
+                  name="filterRadio"
                   onChange={handleChange}
                   id="list-radio-license"
                   type="radio"
