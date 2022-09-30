@@ -17,6 +17,7 @@ npm start
 - Vite for fast build time
 - Windi CSS for fast CSS build speed . Same as Tailwind CSS but faster.
 - React JS
+- Axios
 - Express JS
 - Postgres SQL
 - Railway (free) for hosting Database
